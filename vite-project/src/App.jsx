@@ -1,9 +1,16 @@
 
+import Chai from "./Chai"
+
 function App() {
   
+  const username = "chai aur code}}}"
 
   return (
-      <h1>Chai aur React with Vite | Vivek Shaw</h1>
+      <>
+      {username}
+      <Chai/>
+      <h1>Chai aur Code</h1>
+      </>
   )
 }
 
